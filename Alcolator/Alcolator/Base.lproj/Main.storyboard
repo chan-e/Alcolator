@@ -34,7 +34,7 @@
                                 <rect key="frame" x="18" y="66" width="564" height="31"/>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P7f-DB-bSd">
-                                <rect key="frame" x="35" y="157" width="530" height="26"/>
+                                <rect key="frame" x="240" y="157" width="120" height="26"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -46,13 +46,13 @@
                             <constraint firstItem="23s-j6-OZF" firstAttribute="top" secondItem="iNm-Zk-3HS" secondAttribute="bottom" constant="8" id="510-SQ-JUL"/>
                             <constraint firstItem="P7f-DB-bSd" firstAttribute="top" secondItem="23s-j6-OZF" secondAttribute="bottom" constant="8" id="G6p-A5-MYo"/>
                             <constraint firstItem="iNm-Zk-3HS" firstAttribute="top" secondItem="g7O-8C-qd4" secondAttribute="bottom" constant="8" id="Kjd-9F-7iG"/>
-                            <constraint firstItem="P7f-DB-bSd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="OqW-A6-UVn"/>
+                            <constraint firstItem="P7f-DB-bSd" firstAttribute="width" secondItem="23s-j6-OZF" secondAttribute="width" id="Krm-4s-WhF"/>
                             <constraint firstItem="iNm-Zk-3HS" firstAttribute="width" secondItem="g7O-8C-qd4" secondAttribute="width" id="VNm-cK-uTr"/>
                             <constraint firstItem="g7O-8C-qd4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="d6R-E7-GdZ"/>
                             <constraint firstItem="23s-j6-OZF" firstAttribute="centerX" secondItem="iNm-Zk-3HS" secondAttribute="centerX" id="jn7-o6-E0V"/>
                             <constraint firstAttribute="leadingMargin" secondItem="g7O-8C-qd4" secondAttribute="leading" id="lui-Es-AgL"/>
+                            <constraint firstItem="P7f-DB-bSd" firstAttribute="centerX" secondItem="23s-j6-OZF" secondAttribute="centerX" id="rV9-6k-Mq0"/>
                             <constraint firstAttribute="trailingMargin" secondItem="g7O-8C-qd4" secondAttribute="trailing" id="trd-wG-5Yu"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="P7f-DB-bSd" secondAttribute="trailing" constant="15" id="uqR-DV-fBi"/>
                             <constraint firstItem="iNm-Zk-3HS" firstAttribute="centerX" secondItem="g7O-8C-qd4" secondAttribute="centerX" id="vsD-Rm-Fm9"/>
                         </constraints>
                         <connections>
