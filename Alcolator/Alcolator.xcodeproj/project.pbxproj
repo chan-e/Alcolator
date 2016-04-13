@@ -14,6 +14,7 @@
 		880BA5C61CBDEE2400AC3501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880BA5C51CBDEE2400AC3501 /* Assets.xcassets */; };
 		880BA5C91CBDEE2400AC3501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880BA5C71CBDEE2400AC3501 /* LaunchScreen.storyboard */; };
 		880BA5D41CBDEE2400AC3501 /* AlcolatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 880BA5D31CBDEE2400AC3501 /* AlcolatorTests.m */; };
+		880BA5E01CBEFC8E00AC3501 /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 880BA5DF1CBEFC8E00AC3501 /* WhiskeyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		880BA5CF1CBDEE2400AC3501 /* AlcolatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlcolatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		880BA5D31CBDEE2400AC3501 /* AlcolatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlcolatorTests.m; sourceTree = "<group>"; };
 		880BA5D51CBDEE2400AC3501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880BA5DE1CBEFC8E00AC3501 /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
+		880BA5DF1CBEFC8E00AC3501 /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				880BA5BD1CBDEE2400AC3501 /* AppDelegate.m */,
 				880BA5BF1CBDEE2400AC3501 /* ViewController.h */,
 				880BA5C01CBDEE2400AC3501 /* ViewController.m */,
+				880BA5DE1CBEFC8E00AC3501 /* WhiskeyViewController.h */,
+				880BA5DF1CBEFC8E00AC3501 /* WhiskeyViewController.m */,
 				880BA5C21CBDEE2400AC3501 /* Main.storyboard */,
 				880BA5C51CBDEE2400AC3501 /* Assets.xcassets */,
 				880BA5C71CBDEE2400AC3501 /* LaunchScreen.storyboard */,
@@ -212,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				880BA5C11CBDEE2400AC3501 /* ViewController.m in Sources */,
+				880BA5E01CBEFC8E00AC3501 /* WhiskeyViewController.m in Sources */,
 				880BA5BE1CBDEE2400AC3501 /* AppDelegate.m in Sources */,
 				880BA5BB1CBDEE2400AC3501 /* main.m in Sources */,
 			);
@@ -404,6 +410,7 @@
 				880BA5DA1CBDEE2400AC3501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		880BA5DB1CBDEE2400AC3501 /* Build configuration list for PBXNativeTarget "AlcolatorTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +419,7 @@
 				880BA5DD1CBDEE2400AC3501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
